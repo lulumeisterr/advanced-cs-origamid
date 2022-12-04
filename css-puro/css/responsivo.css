@@ -1,0 +1,90 @@
+/* Breakpoints - responsivo */
+
+/* ########################## Menu ##########################*/
+/* Menu */
+@media (max-width: 739px) {
+    .menu-nav {
+        float: none;
+        clear: both;
+    }
+}
+
+/* Intro */
+@media(max-width: 739px) {
+    .intro {
+        padding: 60px 0;
+    }
+}
+/* #################################################### */
+
+/* ########################## Sobre ##########################*/
+@media(min-width: 740px and (max-width: 980px)) {
+    .sobre-container {
+        width: 720px;
+    }
+    .sobre {
+        width: 340px;
+    }
+}
+
+@media (max-width: 739px){
+    .sobre-container {
+        max-width: 300px;
+    }
+    .sobre-item {
+        width: 300px; /* Tamanho do container / numero de colunas - margem pra cada lado */
+        margin: 0 auto;
+    }
+}
+/* #################################################### */
+
+/* ########################## Produtos ##########################*/
+@media(min-width: 740px and (max-width: 980px)) {
+    .produtos-container {
+        width: 720px;
+    }
+    .produtos-items {
+        width: 220px; /* Tamanho do container / numero de colunas - margem pra cada lado */
+    }
+}
+
+@media (max-width: 739px){
+    .produtos-container {
+        max-width: 300px; 
+    }
+    .produtos-items {
+        margin:  0 auto 20px auto;
+    }
+}
+/* #################################################### */
+
+/* ########################## Locais ##########################*/
+@media(min-width: 740px and (max-width: 980px)) {
+    .locais {
+        max-width: 720px;
+    }
+    .locais-item > div .locasi-item img {
+        width: 340px;   
+    }
+}
+
+@media (max-width: 739px){
+    .locais {
+        max-width: 300px;
+    }
+    .locais-item > div .locasi-item img {
+        width: 340px; /* Tamanho do container / numero de colunas - margem pra cada lado */
+        margin: 0;
+    }
+}
+/* #################################################### */
+
+/* ########################## Assine #####################*/
+@media(min-width: 740px and (max-width: 980px)) {
+
+}
+
+
+@media (max-width: 739px){
+
+}
