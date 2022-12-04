@@ -72,7 +72,7 @@
     .locais {
         max-width: 300px;
     }
-    .locais-item > div .locasi-item img {
+    .locais-item > div .locais-item img {
         width: 340px; /* Tamanho do container / numero de colunas - margem pra cada lado */
         margin: 0;
     }
